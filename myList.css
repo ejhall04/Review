@@ -1,0 +1,10 @@
+.unorderedList{
+    font-weight: bold;
+}
+.orderedList{
+    font-weight: bolder;
+}
+.body{
+    background-color: mediumaquamarine;
+    font-family: Cambria;
+}
