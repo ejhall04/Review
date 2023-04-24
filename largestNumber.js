@@ -11,3 +11,10 @@ function largestNumber() {
     }
     console.log(max)
 }
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.weather.gov/glossary')
+xhr.send()
+xhr.responseType = 'json'
+xhr.onload = function () {
+    let res = xhr.response
+    console.log(res)}
